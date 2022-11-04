@@ -1,0 +1,76 @@
+#cards {
+    height: 1000px;
+    max-height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    background-color: rgb(0, 0, 72);
+}
+
+/* I couldn't the font family that was used */
+
+#card {
+    border-style: hidden;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 350px;
+}
+
+
+#top {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 136, 248);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(0, 136, 248);
+    color: white;
+    padding-left: 30px;
+    font-size: 16pt;
+}
+
+#bottom {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(187, 255, 255);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(187, 255, 255);
+    padding: 40px;
+    padding-top: 20px;
+    padding-right: 50px;
+    color: black;
+
+}
+
+#Pro {
+    font-size: 16pt;
+}
+
+#price {
+    font-size: 30pt;
+}
+
+#Rounded-button {
+    border-style: solid;
+    border-color: rgb(0, 136, 248);
+    background-color: rgb(0, 136, 248);
+    height: 45px;
+    width: 130px;
+    border-radius: 50px;
+    color: white;
+}
+
+span {
+    border-bottom-style: dotted;
+    border-width: 1px;
+}
+
+#dropdown {
+    border-style: hidden;
+    background-color: rgba(179, 237, 241, 0.76);
+    font-size: 8pt;
+}
+
+/* I couldn't figure out a way to make the dropdown button */
